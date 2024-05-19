@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    Papa.parse(''https://github.com/Xinwei2024/jspsychtest/blob/main/materials.csv'
-', {
-        download: true,material
+    Papa.parse('https://raw.githubusercontent.com/Xinwei2024/jspsychtest/main/materials.csv', {
+        download: true,
         header: true,
         complete: function(results) {
             var timeline = [];
