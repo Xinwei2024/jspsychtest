@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    Papa.parse(''https://xinwei2024.github.io/jspsychtest/material.csv'
+    Papa.parse(''https://github.com/Xinwei2024/jspsychtest/blob/main/materials.csv'
 ', {
         download: true,material
         header: true,
